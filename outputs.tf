@@ -9,6 +9,6 @@ output "unique_id" {
 }
 
 output "name" {
-  description = "The IAM Role Name"
-  value       = "${aws_iam_role.this.name}"
+  description = "The Instance profile Name"
+  value       = "${aws_iam_instance_profile.this.name}"
 }
